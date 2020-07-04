@@ -1,4 +1,4 @@
-describe("Bowling game", function() {
+/* describe("Bowling game", function() {
 
   it("should properly calculate a gutter game", function() {
     // Player throw twice per turn and has 10 turns (20)
@@ -15,4 +15,4 @@ describe("Bowling game", function() {
       // test
   });
 
-});
+}); */

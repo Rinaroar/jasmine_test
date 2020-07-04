@@ -1,4 +1,13 @@
-/* describe("Bowling game", function() {
+describe("BowlingGame", function() {
+
+  // Create a new instance from BowlingGame for each test
+  // And assign it to game variable
+  let game;
+
+    beforeEach(function(){
+      game = new BowlingGame();
+    });
+
 
   it("should properly calculate a gutter game", function() {
     // Player throw twice per turn and has 10 turns (20)
@@ -15,4 +24,4 @@
       // test
   });
 
-}); */
+});
